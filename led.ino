@@ -18,7 +18,6 @@ BLYNK_WRITE(V0) {
   digitalWrite(22, pinValue); 
 }
 
-}
 void setup()
 {
   Serial.begin(9600);
