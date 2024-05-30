@@ -15,7 +15,7 @@ char pass[] = "";
 // This function will be called every time device receives command from Blynk App
 BLYNK_WRITE(V0) {
   int pinValue = param.asInt(); 
-  digitalWrite(LED_PIN, pinValue); 
+  digitalWrite(22, pinValue); 
 }
 
 }
